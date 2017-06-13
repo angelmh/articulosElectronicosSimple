@@ -1,0 +1,16 @@
+EN la carpeta dist se encuentra el ejecutable del programa
+pero no funcionara bien si no se encuentra la base de datos.
+
+La base de datos se encuentra en la carpeta llamada
+BD y libreria para conectar la bd
+ ahi se encuentra la bd llamada bdsistema
+bdsistema.backup y el archivo de postgresql que es la libreria.
+
+Para abrir la base de datos se tiene que crear una nueva bd
+en Postgresql con el mismo nombre y despues restablecerla con
+el archivo bdsistema.backup
+
+y ya si no se conecta esque se tiene que compilar ejecutar nuevamente
+desde netbeans, introduciendo previamente la libreria en el paquete.
+
+:)
